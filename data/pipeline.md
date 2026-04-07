@@ -112,5 +112,29 @@
 - [ ] https://jobs.lever.co/mangolanguage/15da8760-c878-4e64-a54e-16bf471400de | Mango Languages | Technical Project Manager (Remote, US)
 - [ ] https://jobs.lever.co/digimarc/2355092c-08d4-4d2d-8d93-6131a46f1ad7 | Digimarc | Program Manager (Remote)
 - [ ] https://remotive.com/remote/jobs/project-management/ai-delivery-manager-4233395 | Jobgether | AI Delivery Manager (Remote)
+- [ ] https://careers.tether.io/o/technical-project-manager-100-remote-worldwide | Tether | Technical Project Manager (100% Remote Worldwide) | 🌎 Remote
+- [ ] https://tekton-labs.breezy.hr/p/84eb21d97c3a-delivery-manager-all-latam/apply | Tekton Labs | Delivery Manager [ALL LATAM] | 🌎 Remote
+- [ ] https://jobs.ashbyhq.com/pareto-ai/a55a4846-ee66-4677-b3fe-4df5a6780cc3 | Pareto.AI | Project Manager, Global Remote | 🌎 Remote
+- [ ] https://jobs.ashbyhq.com/pareto-ai/b556f098-325f-4514-a177-6bf584ad4c0c | Pareto.AI | Technical Project Manager, Global Remote | 🌎 Remote
+- [ ] https://jobs.ashbyhq.com/kraken.com/30a805c0-9e59-450c-8c43-9b27c6e9ce25 | Kraken | Technical Project Manager - Growth | 🌎 Remote
+- [ ] https://apply.workable.com/azumo/j/49A7CA4610 | Azumo | Project Manager - Latin America | 🌎 Remote
+- [ ] https://www.getonbrd.com/jobs/innovation-agile/technical-project-manager-devsu-remote-fbdd | Devsu | Technical Project Manager | 🌎 Remote
+- [ ] https://www.getonbrd.com/jobs/operations-management/it-project-manager-tecla-remote | TECLA | IT Project Manager | 🌎 Remote
+- [ ] https://jobs.ashbyhq.com/ens-labs/611d52a0-b3a3-42fb-a2d5-b96da0003528 | ENS Labs | Technical Project Manager (TPM) | 🌎 Remote
+- [ ] https://weworkremotely.com/remote-jobs/paymentology-implementation-project-manager | Paymentology | Implementation Project Manager | 🌎 Remote
+- [ ] https://jobs.ashbyhq.com/vcluster/eb7ae48b-2507-4f36-a316-ab3b51c38da0 | vCluster Labs | Technical Project Manager | 🌎 Remote
+- [ ] https://www.getonbrd.com/jobs/operaciones-management/technical-project-manager-ensitech-remote | Ensitech | Technical Project Manager (AV/IT) | 🌎 Remote
+- [ ] https://www.getonbrd.com/jobs/machine-learning-ai/technical-project-manager-leniolabs_-remote | Leniolabs | Technical Project Manager (ML/AI) | 🌎 Remote
+- [ ] https://www.getonbrd.com/jobs/programacion/technical-project-manager-waystone-software-altitude-remote | Waystone/Altitude | Technical Project Manager | 🌎 Remote
+- [ ] https://jobs.ashbyhq.com/datatonic/21754f3d-013a-45cd-9e99-35b967d01e91 | Datatonic | Delivery Manager | 🌎 Remote
+- [ ] https://jobs.ashbyhq.com/masabi/f81c0c77-c37f-42c8-88ce-43faa7961615 | Masabi | Senior Delivery Manager | 🌎 Remote
+- [ ] https://jobs.ashbyhq.com/masabi/4f88cd19-7025-40ae-a12f-840d2ffb8d55 | Masabi | Senior Project Manager | 🌎 Remote
+- [ ] https://jobs.ashbyhq.com/deel/bd56f9d0-8ea7-4c05-8522-40c3a70b25c6 | Deel | Global Payroll Programs & Product Manager | 🌎 Remote
+- [ ] https://jobs.ashbyhq.com/deel/5538fd30-1a15-487f-9954-a1a9d0e80ba0 | Deel | Staff Product Operations Manager | 🌎 Remote
+- [ ] https://jobs.lever.co/jobgether/49c0f615-81a5-4d12-bc94-64880fb66529 | Jobgether | Technical Project Manager - REMOTE | 🌎 Remote
+- [ ] https://jobs.lever.co/jobgether/153d2e90-9300-4f89-ad5a-192b13f57b7f | Jobgether | Technical Program Manager (Remote) | 🌎 Remote
+- [ ] https://remoteok.com/remote-jobs/remote-it-project-manager-moovx-503025 | Moovx | IT Project Manager (LATAM) | 🌎 Remote
+- [ ] https://jobs.lever.co/ciandt/e96920da-24ef-4c20-807b-159d7214d471 | CI&T | Senior Scrum Master, Colombia | 🌎 Remote
+- [ ] https://jobs.ashbyhq.com/zapier/1cd4335a-f45b-4844-9ed4-7a0c13f5a557 | Zapier | Readiness Program Manager | 🌎 Remote
 
 ## Procesadas
