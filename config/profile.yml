@@ -1,0 +1,88 @@
+# Career-Ops Profile Configuration
+# This is the single source of truth for your personal data across all modes.
+
+candidate:
+  full_name: "Rafael Jaramillo Estrada"
+  email: "rajaramilloestrada@alumni.fullsail.edu"
+  phone: "+593994215250"
+  location: "Guayaquil, Ecuador"
+  linkedin: "linkedin.com"
+  # portfolio_url: ""
+  # github: ""
+  # twitter: ""
+
+target_roles:
+  primary:
+    - "Technical Project Manager"
+    - "Technical Lead"
+  secondary:
+    - "AI Product Manager"
+    - "AI Automation Consultant"
+  adjacent:
+    - "Head of Product (early-stage)"
+    - "Program Manager"
+  archetypes:
+    - name: "Technical Project Manager"
+      level: "Senior"
+      fit: "primary"
+    - name: "Technical Lead"
+      level: "Senior"
+      fit: "primary"
+    - name: "AI Product Manager"
+      level: "Mid-Senior"
+      fit: "secondary"
+    - name: "AI Automation Consultant"
+      level: "Mid-Senior"
+      fit: "secondary"
+    - name: "Head of Product (early-stage)"
+      level: "Senior"
+      fit: "adjacent"
+    - name: "Program Manager"
+      level: "Senior"
+      fit: "adjacent"
+
+narrative:
+  headline: "Technical PM and Product Builder -- 10+ years shipping across energy, HealthTech, and digital products in LATAM"
+  exit_story: "Built companies, managed infrastructure at national scale, now shipping AI-augmented products. Looking for roles where I can lead technical teams and deliver complex products."
+  superpowers:
+    - "Ship full products solo (Flutter, React/TS, Node) using AI-augmented development"
+    - "Manage multinational stakeholders across languages and cultures"
+    - "Build for underserved LATAM markets with regulatory compliance"
+    - "Bridge technical execution and project leadership"
+  proof_points:
+    - name: "Glipy"
+      url: ""
+      hero_metric: "Production-ready GLP-1 health app for Hispanic market, solo-built with AI"
+    - name: "PULSE: Beat & Burn"
+      url: ""
+      hero_metric: "$2,500+ first-week revenue, 100+ users, 125+ transactions"
+    - name: "Karpowership"
+      url: ""
+      hero_metric: "4 Powership installations coordinated during national energy crisis"
+    - name: "Eagle Eye Productions"
+      url: ""
+      hero_metric: "Founded and scaled to 50+ clients, 15+ remote contractors"
+
+compensation:
+  target_range: "$3,000-5,000/month"
+  currency: "USD"
+  minimum: "$3,000/month"
+  type: "monthly"
+  open_to: "FTE, contract, consulting"
+  location_flexibility: "Remote preferred"
+
+location:
+  country: "Ecuador"
+  city: "Guayaquil"
+  timezone: "UTC-5"
+  visa_status: "No US/EU visa"
+
+preferences:
+  remote: true
+  avoid: "Purely coding roles with no PM or leadership component"
+
+languages:
+  - language: "English"
+    level: "Fluent"
+  - language: "Spanish"
+    level: "Native"
