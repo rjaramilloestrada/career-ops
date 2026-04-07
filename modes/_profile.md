@@ -64,20 +64,42 @@ Frame profile as **"Builder-operator who manages AND ships"** -- rare combinatio
 **When offered below target:**
 > "I'm comparing with opportunities in the $4,000-5,000 range. I'm drawn to [company] because of [reason]. Can we explore something closer to $3,500?"
 
-## Your Location Policy
+## Your Location Policy — HARD FILTER
+
+**Rafael MUST work 100% remote from Guayaquil, Ecuador (UTC-5). No relocation possible. No US/EU visa.**
+
+This is a hard filter, not a preference. Any role that requires on-site, hybrid, or is geo-restricted to US/EU/UK should be scored 1.0 and marked SKIP immediately — do not waste time on a full evaluation.
+
+**Acceptable:**
+- Remote worldwide / remote global / remote anywhere
+- Remote LATAM / remote Americas
+- Contractor or consulting roles (inherently location-flexible)
+- Companies known to hire internationally (e.g., GitLab, Automattic, Zapier, Deel, Remote.com)
+
+**NOT acceptable (auto-SKIP):**
+- "Remote" that means "remote within US" or "remote within EU"
+- Hybrid (any days on-site outside Ecuador)
+- Requires US/EU/UK work authorization
+- "Remote but must visit office quarterly" in US/EU
+
+**In evaluations (scoring):**
+- Remote worldwide / LATAM / Americas: score 5.0
+- Remote with unclear geo restrictions: score 3.0 (flag for verification)
+- Remote US/EU only: score 1.0 → SKIP
+- Hybrid or on-site outside Ecuador: score 1.0 → SKIP
 
 **In forms:**
 - Location: Guayaquil, Ecuador (UTC-5)
 - Overlap: Full overlap with US Eastern, 1-2hr offset from US Pacific
-- Remote preferred, open to occasional travel
+- Open to occasional travel for offsites
 
-**In evaluations (scoring):**
-- Remote-first roles: score 5.0
-- Hybrid with LATAM presence: score 4.0
-- Hybrid requiring US/EU on-site weekly: score 2.0
-- Full on-site outside Ecuador: score 1.0
+**In scans:**
+- BEFORE adding to pipeline, check if the JD says "remote" without geographic restriction
+- If the careers page or JD says "US only", "EU only", or lists specific office locations as required → do not add to pipeline
 
 ## Your Deal-breakers
 
 - Purely coding roles with no PM or leadership component
-- Must be on-site outside Ecuador with no remote option
+- Any role requiring on-site or hybrid outside Ecuador
+- Roles restricted to US/EU/UK work authorization
+- Roles that require security clearance

@@ -76,10 +76,29 @@ location:
   city: "Guayaquil"
   timezone: "UTC-5"
   visa_status: "No US/EU visa"
+  remote_requirement: "mandatory"  # HARD FILTER: 100% remote from Ecuador
+  acceptable_remote:
+    - "Remote worldwide"
+    - "Remote global"
+    - "Remote LATAM"
+    - "Remote Americas"
+    - "Remote (anywhere)"
+    - "Contractor/consulting (location-flexible)"
+  reject_if:
+    - "Remote US only"
+    - "Remote EU only"
+    - "Hybrid"
+    - "On-site"
+    - "Must be based in [country that is not Ecuador]"
+    - "Requires work authorization in [US/EU/UK]"
 
 preferences:
   remote: true
-  avoid: "Purely coding roles with no PM or leadership component"
+  remote_hard_filter: true  # NEVER evaluate on-site or geo-restricted roles
+  avoid:
+    - "Purely coding roles with no PM or leadership component"
+    - "On-site or hybrid roles outside Ecuador"
+    - "Roles restricted to US/EU work authorization"
 
 languages:
   - language: "English"
