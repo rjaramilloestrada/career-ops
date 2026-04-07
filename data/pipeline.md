@@ -1,0 +1,116 @@
+# Pipeline — Pending URLs
+
+## Pendientes
+
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5127289008 | Anthropic | Business Systems Analyst, Data Enrichment
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5133449008 | Anthropic | Finance Systems, Program Manager - Quote-to-cash
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5121563008 | Anthropic | Forward Deployed Engineer, Applied AI
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5012991008 | Anthropic | Forward Deployed Engineer, Applied AI
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5116641008 | Anthropic | Engineering Manager, Access Management
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5159608008 | Anthropic | Engineering Manager, Agent Prompts & Evals
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5140492008 | Anthropic | Engineering Manager, Claude for Financial Services
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5055488008 | Anthropic | Applied AI Engineer
+- [ ] https://job-boards.eu.greenhouse.io/polyai/jobs/4723162101 | PolyAI | Engineering Manager - Runtime Team
+- [ ] https://job-boards.eu.greenhouse.io/polyai/jobs/4784892101 | PolyAI | Senior Channel Solutions Consultant
+- [ ] https://job-boards.eu.greenhouse.io/polyai/jobs/4796935101 | PolyAI | Forward Deployed AI Engineer (Must be PST timezone)
+- [ ] https://job-boards.eu.greenhouse.io/parloa/jobs/4688952101 | Parloa | Engineering Manager - Product Engineering
+- [ ] https://job-boards.eu.greenhouse.io/parloa/jobs/4784741101 | Parloa | GSI Partnerships Manager - (Conversational AI & Agentic AI)
+- [ ] https://job-boards.eu.greenhouse.io/parloa/jobs/4797778101 | Parloa | Head of Forward Deployment Engineering (FDE)
+- [ ] https://job-boards.eu.greenhouse.io/parloa/jobs/4566280101 | Parloa | Lead AI Agent Architect
+- [ ] https://job-boards.eu.greenhouse.io/parloa/jobs/4776852101 | Parloa | Team Lead, Enterprise Engagement DACH
+- [ ] https://job-boards.greenhouse.io/intercom/jobs/7776426 | Intercom | Engineering Manager, AI Models Infrastructure
+- [ ] https://job-boards.greenhouse.io/intercom/jobs/7749413 | Intercom | Engineering Manager, Forward Deployed Engineering
+- [ ] https://job-boards.greenhouse.io/intercom/jobs/7776018 | Intercom | Senior AI Deployment Architect
+- [ ] https://job-boards.greenhouse.io/intercom/jobs/7735288 | Intercom | Senior AI Deployment Consultant
+- [ ] https://job-boards.greenhouse.io/intercom/jobs/7464294 | Intercom | Senior AI Product Manager
+- [ ] https://job-boards.greenhouse.io/intercom/jobs/7464291 | Intercom | Senior AI Product Manager
+- [ ] https://job-boards.greenhouse.io/intercom/jobs/7377200 | Intercom | Senior AI Product Manager
+- [ ] https://job-boards.greenhouse.io/intercom/jobs/7262006 | Intercom | Senior Solutions Architect
+- [ ] https://job-boards.greenhouse.io/intercom/jobs/7649168 | Intercom | Senior TPM - Enterprise Systems
+- [ ] https://job-boards.greenhouse.io/intercom/jobs/5379326 | Intercom | Senior Product Manager
+- [ ] https://job-boards.greenhouse.io/intercom/jobs/7728811 | Intercom | Customer Success Operations Manager - Professional Services
+- [ ] https://job-boards.greenhouse.io/humeai/jobs/4856037008 | Hume AI | Product Manager, Growth
+- [ ] https://job-boards.greenhouse.io/airtable/jobs/8409168002 | Airtable | AI Agent Architect, Customer Experience
+- [ ] https://job-boards.greenhouse.io/airtable/jobs/8477376002 | Airtable | Forward Deployed Engineer, EMEA
+- [ ] https://job-boards.greenhouse.io/airtable/jobs/8378441002 | Airtable | Lead Solutions Consultant | DACH
+- [ ] https://job-boards.greenhouse.io/airtable/jobs/8199012002 | Airtable | Product Manager, AI
+- [ ] https://job-boards.greenhouse.io/airtable/jobs/8382158002 | Airtable | Program Manager, AI Programs
+- [ ] https://job-boards.greenhouse.io/airtable/jobs/8487502002 | Airtable | Senior Solutions Architect
+- [ ] https://job-boards.greenhouse.io/airtable/jobs/8461582002 | Airtable | Senior Partner Solutions Architect
+- [ ] https://job-boards.greenhouse.io/airtable/jobs/8397665002 | Airtable | Engineering Manager, Enterprise Product
+- [ ] https://job-boards.greenhouse.io/vercel/jobs/5829980004 | Vercel | Engineering Manager, AI Gateway
+- [ ] https://job-boards.greenhouse.io/vercel/jobs/5808590004 | Vercel | Product Manager - Agent Platform
+- [ ] https://job-boards.greenhouse.io/vercel/jobs/5796302004 | Vercel | Solutions Architect
+- [ ] https://job-boards.greenhouse.io/vercel/jobs/5806456004 | Vercel | Manager, Solutions Architecture
+- [ ] https://job-boards.greenhouse.io/arizeai/jobs/5818115004 | Arize AI | AI Product Manager
+- [ ] https://job-boards.greenhouse.io/arizeai/jobs/5797408004 | Arize AI | AI Solutions Engineer
+- [ ] https://job-boards.greenhouse.io/arizeai/jobs/5781408004 | Arize AI | AI Solutions Engineer, EMEA
+- [ ] https://job-boards.greenhouse.io/arizeai/jobs/5783026004 | Arize AI | AI Solutions Manager (San Francisco)
+- [ ] https://job-boards.greenhouse.io/arizeai/jobs/5421310004 | Arize AI | Engineering Manager - Product & Platform
+- [ ] https://job-boards.greenhouse.io/runpod/jobs/5020164008 | RunPod | Engineering Manager - Product & Platform Delivery
+- [ ] https://job-boards.greenhouse.io/runpod/jobs/5112001008 | RunPod | Senior Product Manager
+- [ ] https://job-boards.greenhouse.io/runpod/jobs/5030096008 | RunPod | Technical Program Manager
+- [ ] https://job-boards.greenhouse.io/runpod/jobs/5173070008 | RunPod | Forward Deployed Engineer APAC
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4007711005 | Glean | Product Manager
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4525297005 | Glean | Product Manager, Agent Security & Governance
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4525518005 | Glean | Product Manager, AI Quality
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4559476005 | Glean | Product Management Lead, Core Experience
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4388073005 | Glean | Tech Lead Manager
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4677083005 | Glean | Tech Lead Manager, Agentic Runtime
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4621972005 | Glean | AI Outcomes Manager, ANZ
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4661912005 | Glean | AI Outcomes Manager, Central
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4613925005 | Glean | AI Outcomes Manager, London
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4508312005 | Glean | Solutions Architect
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4676087005 | Glean | Solutions Engineering Manager
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4636294005 | Glean | Senior Solutions Engineer, LATAM
+- [ ] https://job-boards.eu.greenhouse.io/speechmatics/jobs/4792165101 | Speechmatics | Forward Deployed Engineer
+- [ ] https://job-boards.eu.greenhouse.io/speechmatics/jobs/4675075101 | Speechmatics | Senior Product Manager
+- [ ] https://job-boards.eu.greenhouse.io/speechmatics/jobs/4823679101 | Speechmatics | Solutions Engineer
+- [ ] https://job-boards.greenhouse.io/blackforestlabs/jobs/4642947008 | Black Forest Labs | Senior Solutions Architect
+- [ ] https://helsing.ai/jobs/4801371101?gh_jid=4801371101 | Helsing | Technical Project Manager
+- [ ] https://helsing.ai/jobs/4525967101?gh_jid=4525967101 | Helsing | (Senior) Project Manager
+- [ ] https://helsing.ai/jobs/4636978101?gh_jid=4636978101 | Helsing | Programme Manager
+- [ ] https://helsing.ai/jobs/4739642101?gh_jid=4739642101 | Helsing | PMO Analyst
+- [ ] https://helsing.ai/jobs/4124326101?gh_jid=4124326101 | Helsing | Product Manager
+- [ ] https://helsing.ai/jobs/4516967101?gh_jid=4516967101 | Helsing | Deployed AI Engineer
+- [ ] https://job-boards.greenhouse.io/celonis/jobs/7681593003 | Celonis | Applied AI Engineer
+- [ ] https://job-boards.greenhouse.io/celonis/jobs/7635542003 | Celonis | Applied AI Solution Engineer
+- [ ] https://job-boards.greenhouse.io/celonis/jobs/7614493003 | Celonis | Applied AI Value Engineer
+- [ ] https://job-boards.greenhouse.io/celonis/jobs/7517493003 | Celonis | Engineering Manager - Celonis Process Management
+- [ ] https://job-boards.greenhouse.io/celonis/jobs/7230213003 | Celonis | Customer Transformation Advisor
+- [ ] https://job-boards.greenhouse.io/contentful/jobs/7574015 | Contentful | IT Project Manager
+- [ ] https://job-boards.greenhouse.io/contentful/jobs/7658074 | Contentful | Senior Product Manager (f/m/d)
+- [ ] https://job-boards.greenhouse.io/contentful/jobs/7493807 | Contentful | Field Enablement Program Manager
+- [ ] https://job-boards.greenhouse.io/contentful/jobs/7623460 | Contentful | Senior Program Manager, Creator Community
+- [ ] https://job-boards.greenhouse.io/contentful/jobs/7713339 | Contentful | Engineering Manager - Workflows (f/m/d)
+- [ ] https://getyourguide.careers/jobs/7422312 | GetYourGuide | Engineering Manager, AI Platform
+- [ ] https://getyourguide.careers/jobs/7676997 | GetYourGuide | Senior Technical Project Manager, Merchandising
+- [ ] https://getyourguide.careers/jobs/7649294 | GetYourGuide | Lead Product Manager, B2C
+- [ ] https://careers.hellofresh.com/global/en/job/7454609 | HelloFresh | Freelance Senior Technical Project Manager - FSQA Processes & Systems
+- [ ] https://careers.hellofresh.com/global/en/job/7722066 | HelloFresh | Automation Engineer
+- [ ] https://job-boards.greenhouse.io/isomorphiclabs/jobs/5805072004 | Isomorphic Labs | Senior Technical Program Manager - Preclinical
+- [ ] https://job-boards.eu.greenhouse.io/physicsx/jobs/4825159101 | PhysicsX | Solutions Architect
+- [ ] https://job-boards.eu.greenhouse.io/physicsx/jobs/4805314101 | PhysicsX | Strategy & Programs Manager
+- [ ] https://job-boards.eu.greenhouse.io/physicsx/jobs/4804769101 | PhysicsX | Principal AI Engineer
+- [ ] https://job-boards.eu.greenhouse.io/amplemarket/jobs/4782681101 | Amplemarket | Tech Lead
+- [ ] https://traderepublic.com/en-de/about?jobId=5614731003 | Trade Republic | Senior Technical Product Manager
+- [ ] https://traderepublic.com/en-de/about?jobId=6551435003 | Trade Republic | Senior Technical Product Manager - Banking infra
+- [ ] https://wayve.firststage.co/jobs?gh_jid=8455514002 | Wayve | Customer Program Manager
+- [ ] https://wayve.firststage.co/jobs?gh_jid=8325451002 | Wayve | Technical Product Manager - Robotaxi
+- [ ] https://wayve.firststage.co/jobs?gh_jid=8480867002 | Wayve | Material Program Manager
+- [ ] https://job-boards.greenhouse.io/scandit/jobs/7563160 | Scandit | Engineering Manager, Platform
+- [ ] https://jobs.ashbyhq.com/rula/464582ee-ffc9-43e1-9f26-1de7a085a268 | Rula | Technical Project Manager (Remote)
+- [ ] https://jobs.ashbyhq.com/lavendo/1e290c3f-a34f-4b11-8abf-89554c27f1b1 | Lavendo | Remote Technical Project Manager (Data Privacy & AI)
+- [ ] https://jobs.ashbyhq.com/Scale%20Army%20Careers/454e7dd0-deca-47af-b212-3e70701a9a96 | Scale Army | Technical Project Manager
+- [ ] https://jobs.ashbyhq.com/everai/c7c482e1-5866-4f69-84b8-e3f4778a5d84 | EverAI | Tech Lead, LLM & Generative AI (Full Remote - Europe)
+- [ ] https://jobs.ashbyhq.com/n8n/1221b66d-ff24-451d-bf09-f2f70be33501 | n8n | Engineering Manager (Remote, Europe)
+- [ ] https://jobs.ashbyhq.com/everai/694c19b7-d94f-4f66-97a7-5c881b0811bf | EverAI | Senior AI Product Manager (Remote - Europe)
+- [ ] https://jobs.ashbyhq.com/procurify/36f109d4-4024-4bfe-986c-6997c02b9967 | Procurify | Senior Product Manager, AI
+- [ ] https://jobs.ashbyhq.com/writer/d590e2f0-e2fe-4a02-b0e1-14f20777af13 | Writer | AI Product Manager
+- [ ] https://jobs.lever.co/aledade/21787819-6373-4736-8766-d49cc84fd3af | Aledade | Senior Technical Product Manager - AI Platform
+- [ ] https://jobs.lever.co/aledade/76677033-2329-4b4d-94c6-0486ea6b010c | Aledade | Technical Product Manager - AI Platform
+- [ ] https://jobs.lever.co/mangolanguage/15da8760-c878-4e64-a54e-16bf471400de | Mango Languages | Technical Project Manager (Remote, US)
+- [ ] https://jobs.lever.co/digimarc/2355092c-08d4-4d2d-8d93-6131a46f1ad7 | Digimarc | Program Manager (Remote)
+- [ ] https://remotive.com/remote/jobs/project-management/ai-delivery-manager-4233395 | Jobgether | AI Delivery Manager (Remote)
+
+## Procesadas
