@@ -2,6 +2,15 @@
 
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
+| 12 | 2026-04-07 | Intercom | Senior AI Product Manager | 2.8/5 | Evaluada | ❌ | [12](reports/012-intercom-2026-04-07.md) | Berlin hybrid, no EU visa — hard blocker |
+| 13 | 2026-04-07 | Arize AI | AI Product Manager | 3.2/5 | Evaluada | ❌ | [13](reports/013-arize-ai-2026-04-07.md) | Remote US, strong comp, confirm intl eligibility first |
+| 14 | 2026-04-07 | Vercel | Product Manager - Agent Platform | 2.9/5 | Evaluada | ❌ | [14](reports/014-vercel-2026-04-07.md) | Hybrid SF/NYC, no US visa — hard blocker |
+| 15 | 2026-04-07 | Airtable | Program Manager, AI Programs | 3.5/5 | Evaluada | ❌ | [15](reports/015-airtable-pm-programs-2026-04-07.md) | Remote US, good PM fit, confirm intl remote |
+| 16 | 2026-04-07 | Airtable | Product Manager, AI | 3.0/5 | Evaluada | ❌ | [16](reports/016-airtable-pm-ai-2026-04-07.md) | San Francisco only, no US visa — hard blocker |
+| 17 | 2026-04-07 | Aledade | Technical Product Manager - AI Platform | 3.6/5 | Evaluada | ❌ | [17](reports/017-aledade-2026-04-07.md) | Remote US, strong TPM match, healthcare gap, confirm intl |
+| 18 | 2026-04-07 | Writer | AI Product Manager | 3.1/5 | Evaluada | ❌ | [18](reports/018-writer-2026-04-07.md) | JD partially retrieved, location unconfirmed, enterprise AI gap |
+| 19 | 2026-04-07 | Glean | Senior Solutions Engineer, LATAM | 2.5/5 | Evaluada | ❌ | [19](reports/019-glean-2026-04-07.md) | Wrong role type (SE not PM), location Brazil/Mexico only |
+| 20 | 2026-04-07 | Jobgether | AI Delivery Manager | 3.7/5 | Evaluada | ❌ | [20](reports/020-jobgether-2026-04-07.md) | Best archetype match, remote, low comp ($82-90K), aggregator risk |
 | 1 | 2026-04-07 | Helsing | Technical Project Manager | 2.8/5 | Evaluada | ❌ | [001](reports/001-helsing-2026-04-07.md) | Defence AI testing PM, Munich on-site. Aviation/aerospace domain gap, security clearance blocker. Not recommended. |
 | 2 | 2026-04-07 | Helsing | (Senior) Project Manager | 2.6/5 | Evaluada | ❌ | [002](reports/002-helsing-2026-04-07.md) | Defence AI Land domain PM, Munich/Berlin. Requires PMP + defence sector exp. Not recommended. |
 | 3 | 2026-04-07 | Helsing | Programme Manager | 2.3/5 | Evaluada | ❌ | [003](reports/003-helsing-2026-04-07.md) | Vendor/supplier relationship mgmt role, not delivery PM. Consulting background required. Do not apply. |
