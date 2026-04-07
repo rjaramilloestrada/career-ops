@@ -2,6 +2,11 @@
 
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
+| 27 | 2026-04-07 | Azumo | Project Manager - Latin America | 3.6/5 | Evaluada | ❌ | [027](reports/027-azumo-2026-04-07.md) | LATAM remote PM; strong skill match but Ecuador not listed (Chile/Brazil/Argentina only); posting likely closed; comp at lower end ($2.7-3.7K/mo) |
+| 28 | 2026-04-07 | Deel | Global Payroll Programs & Product Manager | 2.4/5 | Evaluada | ❌ | [028](reports/028-deel-payroll-pm-2026-04-07.md) | SKIP — requires 7+ yrs global payroll domain expertise; geo-restricted to US/UK/EU; position closed Mar 2026 |
+| 29 | 2026-04-07 | Deel | Staff Product Operations Manager | 2.6/5 | Evaluada | ❌ | [029](reports/029-deel-prodops-2026-04-07.md) | SKIP — requires 7+ yrs product ops + SQL/Looker/Snowflake; Europe-only; position closed Apr 2025 |
+| 30 | 2026-04-07 | Paymentology | Implementation Project Manager | 3.9/5 | Evaluada | ❌ | [030](reports/030-paymentology-2026-04-07.md) | Best fit in batch — worldwide remote, strong PM match, fintech domain gap bridgeable via PULSE; verify if posting still active |
+| 31 | 2026-04-07 | vCluster Labs | Technical Project Manager | 3.2/5 | Evaluada | ❌ | [031](reports/031-vcluster-2026-04-07.md) | SKIP — requires Kubernetes/Docker/CI-CD domain expertise not on CV; Europe-only; good PM fundamentals match otherwise |
 | 12 | 2026-04-07 | Intercom | Senior AI Product Manager | 2.8/5 | Evaluada | ❌ | [12](reports/012-intercom-2026-04-07.md) | Berlin hybrid, no EU visa — hard blocker |
 | 13 | 2026-04-07 | Arize AI | AI Product Manager | 3.2/5 | Evaluada | ❌ | [13](reports/013-arize-ai-2026-04-07.md) | Remote US, strong comp, confirm intl eligibility first |
 | 14 | 2026-04-07 | Vercel | Product Manager - Agent Platform | 2.9/5 | Evaluada | ❌ | [14](reports/014-vercel-2026-04-07.md) | Hybrid SF/NYC, no US visa — hard blocker |
