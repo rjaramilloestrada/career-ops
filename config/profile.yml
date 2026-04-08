@@ -1,5 +1,5 @@
 # Career-Ops Profile Configuration
-# This is the single source of truth for your personal data across all modes.
+# Single source of truth for Rafael Jaramillo Estrada
 
 candidate:
   full_name: "Rafael Jaramillo Estrada"
@@ -7,76 +7,96 @@ candidate:
   phone: "+593994215250"
   location: "Guayaquil, Ecuador"
   linkedin: "linkedin.com"
-  # portfolio_url: ""
-  # github: ""
-  # twitter: ""
 
 target_roles:
   primary:
     - "Technical Project Manager"
-    - "Technical Lead"
+    - "Technical Program Manager"
   secondary:
+    - "Delivery Manager"
     - "AI Product Manager"
-    - "AI Automation Consultant"
   adjacent:
+    - "AI Automation Consultant"
     - "Head of Product (early-stage)"
-    - "Program Manager"
   archetypes:
     - name: "Technical Project Manager"
       level: "Senior"
       fit: "primary"
-    - name: "Technical Lead"
+    - name: "Technical Program Manager"
       level: "Senior"
       fit: "primary"
+    - name: "Delivery Manager"
+      level: "Senior"
+      fit: "secondary"
     - name: "AI Product Manager"
       level: "Mid-Senior"
       fit: "secondary"
     - name: "AI Automation Consultant"
       level: "Mid-Senior"
-      fit: "secondary"
+      fit: "adjacent"
     - name: "Head of Product (early-stage)"
       level: "Senior"
       fit: "adjacent"
-    - name: "Program Manager"
-      level: "Senior"
-      fit: "adjacent"
+
+  ideal_domain:
+    - "SaaS"
+    - "AI / ML"
+    - "Automation (n8n, no-code, agent-based)"
+    - "HealthTech"
+  bonus_signals:
+    - "LATAM expansion or presence"
+    - "Bilingual EN/ES valued"
+    - "AI-augmented workflows"
+    - "No-code / low-code tooling"
 
 narrative:
-  headline: "Technical PM and Product Builder -- 10+ years shipping across energy, HealthTech, and digital products in LATAM"
-  exit_story: "Built companies, managed infrastructure at national scale, now shipping AI-augmented products. Looking for roles where I can lead technical teams and deliver complex products."
+  headline: "TPM who ships products, not just manages them. Builder-operator with 10+ years across infrastructure, HealthTech, and AI automation in LATAM."
+  exit_story: "I don't just track Jira tickets. I built PULSE (React/Node PWA, $2.5K first-week revenue), Glipy (Flutter health app, production-ready), and ran Karpowership installations coordinating Turkish HQ + Ecuadorian government + 25 contractors. Now I run Ignifera, an AI automation agency for LATAM SMBs. I'm looking for a remote TPM role where my builder skills and LATAM expertise compound."
+
+  differentiators:
+    - "I ship products solo: PULSE ($2,500+ revenue, 100+ users), Glipy (production health app) — not theoretical, deployed"
+    - "I managed international infrastructure at scale: 4 Powership installations during a national energy crisis"
+    - "I use AI-augmented development daily: Claude Code, n8n, Hermes agents — I build with AI, not just talk about it"
+    - "I run Ignifera, an AI automation agency targeting LATAM SMBs — uniquely valuable to companies expanding in LATAM"
+    - "Bilingual EN/ES with deep LATAM market knowledge and cross-cultural stakeholder management"
+
   superpowers:
-    - "Ship full products solo (Flutter, React/TS, Node) using AI-augmented development"
-    - "Manage multinational stakeholders across languages and cultures"
-    - "Build for underserved LATAM markets with regulatory compliance"
-    - "Bridge technical execution and project leadership"
+    - "Ship full products solo (React/TS, Node, Flutter) using AI-augmented dev (Claude Code, n8n, Hermes)"
+    - "Manage multinational stakeholders across languages, cultures, and time zones"
+    - "Build AI automation workflows — not just manage them"
+    - "Bridge technical execution and project leadership — I understand what engineering teams build because I build it too"
+
   proof_points:
+    - name: "PULSE: Beat & Burn"
+      url: ""
+      hero_metric: "$2,500+ first-week revenue, 100+ users, 125+ transactions, full-stack PWA"
     - name: "Glipy"
       url: ""
       hero_metric: "Production-ready GLP-1 health app for Hispanic market, solo-built with AI"
-    - name: "PULSE: Beat & Burn"
-      url: ""
-      hero_metric: "$2,500+ first-week revenue, 100+ users, 125+ transactions"
     - name: "Karpowership"
       url: ""
-      hero_metric: "4 Powership installations coordinated during national energy crisis"
+      hero_metric: "4 Powership installations, 25+ contractors, Turkish HQ + Ecuadorian govt coordination"
     - name: "Eagle Eye Productions"
       url: ""
-      hero_metric: "Founded and scaled to 50+ clients, 15+ remote contractors"
+      hero_metric: "Founded, scaled to 50+ clients, 15+ remote contractors, 2-4 day delivery SLAs"
+    - name: "Ignifera"
+      url: ""
+      hero_metric: "AI automation agency for LATAM SMBs — n8n, Claude Code, Hermes agents"
 
 compensation:
-  target_range: "$3,000-5,000/month"
+  target_range: "$2,000-5,000/month"
   currency: "USD"
-  minimum: "$3,000/month"
+  minimum: "$2,000/month"
+  floor_note: "Open to lower end ($2K-3K) for roles with strong growth potential, flexibility, or high alignment"
   type: "monthly"
   open_to: "FTE, contract, consulting"
-  location_flexibility: "Remote preferred"
 
 location:
   country: "Ecuador"
   city: "Guayaquil"
   timezone: "UTC-5"
   visa_status: "No US/EU visa"
-  remote_requirement: "mandatory"  # HARD FILTER: 100% remote from Ecuador
+  remote_requirement: "mandatory"
   acceptable_remote:
     - "Remote worldwide"
     - "Remote global"
@@ -89,16 +109,19 @@ location:
     - "Remote EU only"
     - "Hybrid"
     - "On-site"
-    - "Must be based in [country that is not Ecuador]"
     - "Requires work authorization in [US/EU/UK]"
+    - "Relocation required"
 
 preferences:
   remote: true
-  remote_hard_filter: true  # NEVER evaluate on-site or geo-restricted roles
+  remote_hard_filter: true
   avoid:
-    - "Purely coding roles with no PM or leadership component"
-    - "On-site or hybrid roles outside Ecuador"
+    - "Purely coding roles with no leadership or PM component"
+    - "On-site or hybrid outside Ecuador"
     - "Roles restricted to US/EU work authorization"
+    - "Roles below $2,000/month USD"
+    - "Enterprise bureaucracy roles with no technical depth"
+    - "Roles where 'technical' just means knowing Jira"
 
 languages:
   - language: "English"

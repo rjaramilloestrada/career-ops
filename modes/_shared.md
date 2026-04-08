@@ -25,21 +25,28 @@
 
 ## Scoring System
 
-The evaluation uses 6 blocks (A-F) with a global score of 1-5:
+The evaluation uses 6 blocks (A-F) with a global score of 1-5.
 
-| Dimension | What it measures |
-|-----------|-----------------|
-| Match con CV | Skills, experience, proof points alignment |
-| North Star alignment | How well the role fits the user's target archetypes (from _profile.md) |
-| Comp | Salary vs market (5=top quartile, 1=well below) |
-| Cultural signals | Company culture, growth, stability, remote policy |
-| Red flags | Blockers, warnings (negative adjustments) |
-| **Global** | Weighted average of above |
+**WEIGHTED dimensions (from _profile.md — these drive the score):**
+
+| Dimension | Weight | What it measures |
+|-----------|--------|-----------------|
+| Remote-first | DEAL BREAKER | 100% remote from Ecuador? If no → score 1.0, auto-SKIP |
+| Technical depth | HIGH | Does the role require builder skills, not just Jira? |
+| Comp meets floor | HIGH | >= $2,000/month? If below → score 1.0 |
+| AI/automation/SaaS domain | HIGH | Alignment with candidate's trajectory |
+| CV match | MEDIUM | Skills, experience, proof points alignment |
+| LATAM/bilingual value | BONUS | Does the company value LATAM or bilingual EN/ES? |
+
+**DEPRIORITIZE (don't let these tank a score):**
+- Company size or brand name
+- Exact years of experience required
+- Location of HQ (remote is remote)
 
 **Score interpretation:**
 - 4.5+ → Strong match, recommend applying immediately
 - 4.0-4.4 → Good match, worth applying
-- 3.5-3.9 → Decent but not ideal, apply only if specific reason
+- 3.5-3.9 → Decent, apply if specific reason or growth potential
 - Below 3.5 → Recommend against applying (see Ethical Use in CLAUDE.md)
 
 ## Archetype Detection
@@ -49,11 +56,11 @@ Classify every offer into one of these types (or hybrid of 2):
 | Archetype | Key signals in JD |
 |-----------|-------------------|
 | Technical Project Manager | "project manager", "Agile", "Scrum", "delivery", "stakeholder management", "cross-functional", "coordination" |
-| Technical Lead | "tech lead", "hands-on", "architecture", "full-stack", "build", "ship", "team lead" |
+| Technical Program Manager | "program manager", "TPM", "multi-project", "cross-functional", "technical programs", "resource allocation" |
+| Delivery Manager | "delivery manager", "Agile coach", "Scrum master", "client delivery", "consulting", "sprint" |
 | AI Product Manager | "product manager", "roadmap", "PRD", "discovery", "go-to-market", "AI product" |
-| AI Automation Consultant | "automation", "AI consultant", "workflow", "process optimization", "solutions", "client delivery" |
+| AI Automation Consultant | "automation", "AI consultant", "workflow", "process optimization", "no-code", "n8n", "agent" |
 | Head of Product (early-stage) | "head of product", "0-to-1", "product-market fit", "startup", "early-stage", "founder" |
-| Program Manager | "program manager", "portfolio", "multi-project", "PMO", "executive reporting", "resource allocation" |
 
 After detecting archetype, read `modes/_profile.md` for the user's specific framing and proof points for that archetype.
 
