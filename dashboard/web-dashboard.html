@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Career-Ops Dashboard — Rafael Jaramillo Estrada</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: #0f0f23; color: #ccc; padding: 24px; }
+  h1 { color: #00d4aa; font-size: 22px; margin-bottom: 4px; }
+  .subtitle { color: #666; font-size: 13px; margin-bottom: 24px; }
+  .stats { display: flex; gap: 16px; margin-bottom: 24px; flex-wrap: wrap; }
+  .stat { background: #1a1a3e; border: 1px solid #2a2a5e; border-radius: 8px; padding: 16px 20px; min-width: 140px; }
+  .stat-value { font-size: 28px; font-weight: 700; color: #fff; }
+  .stat-label { font-size: 11px; color: #888; text-transform: uppercase; letter-spacing: 0.05em; margin-top: 2px; }
+  .stat.green .stat-value { color: #00d4aa; }
+  .stat.yellow .stat-value { color: #f0c040; }
+  .stat.red .stat-value { color: #ff6b6b; }
+  .stat.blue .stat-value { color: #6bc5ff; }
+  .filters { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+  .filter-btn { background: #1a1a3e; border: 1px solid #2a2a5e; color: #ccc; padding: 6px 14px; border-radius: 6px; cursor: pointer; font-size: 12px; transition: all 0.2s; }
+  .filter-btn:hover { border-color: #00d4aa; color: #00d4aa; }
+  .filter-btn.active { background: #00d4aa; color: #0f0f23; border-color: #00d4aa; font-weight: 600; }
+  table { width: 100%; border-collapse: collapse; background: #1a1a3e; border-radius: 8px; overflow: hidden; }
+  thead th { background: #12122e; color: #00d4aa; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; padding: 12px 14px; text-align: left; border-bottom: 2px solid #2a2a5e; cursor: pointer; user-select: none; }
+  thead th:hover { color: #fff; }
+  tbody tr { border-bottom: 1px solid #1f1f4a; transition: background 0.15s; }
+  tbody tr:hover { background: #22224a; }
+  td { padding: 10px 14px; font-size: 13px; }
+  .score { font-weight: 700; font-size: 15px; }
+  .score.high { color: #00d4aa; }
+  .score.mid { color: #f0c040; }
+  .score.low { color: #ff6b6b; }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 600; text-transform: uppercase; }
+  .badge.apply { background: #00d4aa22; color: #00d4aa; border: 1px solid #00d4aa44; }
+  .badge.ready { background: #6bc5ff22; color: #6bc5ff; border: 1px solid #6bc5ff44; }
+  .badge.verify { background: #f0c04022; color: #f0c040; border: 1px solid #f0c04044; }
+  .badge.skip { background: #ff6b6b22; color: #ff6b6b; border: 1px solid #ff6b6b44; }
+  .badge.closed { background: #88888822; color: #888; border: 1px solid #88888844; }
+  .badge.monitor { background: #c084fc22; color: #c084fc; border: 1px solid #c084fc44; }
+  a { color: #6bc5ff; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .remote-tag { color: #00d4aa; font-size: 11px; }
+  .section-title { color: #00d4aa; font-size: 16px; font-weight: 600; margin: 32px 0 12px; border-bottom: 1px solid #2a2a5e; padding-bottom: 8px; }
+  .legend { display: flex; gap: 12px; margin-bottom: 16px; flex-wrap: wrap; }
+  .legend-item { display: flex; align-items: center; gap: 6px; font-size: 11px; color: #888; }
+  .updated { color: #666; font-size: 11px; margin-top: 24px; text-align: center; }
+</style>
+</head>
+<body>
+
+<h1>Career-Ops Dashboard</h1>
+<div class="subtitle">Rafael Jaramillo Estrada — Technical Project Manager | Remote from Ecuador (UTC-5) | $2K-5K/month</div>
+
+<div class="stats">
+  <div class="stat blue"><div class="stat-value">44</div><div class="stat-label">Total Evaluated</div></div>
+  <div class="stat green"><div class="stat-value">6</div><div class="stat-label">Score >= 3.5</div></div>
+  <div class="stat yellow"><div class="stat-value">3</div><div class="stat-label">PDF Ready</div></div>
+  <div class="stat red"><div class="stat-value">109</div><div class="stat-label">Filtered Out</div></div>
+</div>
+
+<div class="filters">
+  <button class="filter-btn active" onclick="filterTable('all')">All Viable</button>
+  <button class="filter-btn" onclick="filterTable('apply')">Ready to Apply</button>
+  <button class="filter-btn" onclick="filterTable('verify')">Needs Verification</button>
+  <button class="filter-btn" onclick="filterTable('monitor')">Monitor</button>
+</div>
+
+<div class="legend">
+  <div class="legend-item"><span class="badge apply">Apply</span> PDF + Cover Letter ready</div>
+  <div class="legend-item"><span class="badge verify">Verify</span> Check eligibility first</div>
+  <div class="legend-item"><span class="badge closed">Closed</span> Contact directly</div>
+  <div class="legend-item"><span class="badge monitor">Monitor</span> Watch for reopening</div>
+</div>
+
+<table id="mainTable">
+<thead>
+  <tr>
+    <th onclick="sortTable(0)">#</th>
+    <th onclick="sortTable(1)">Score</th>
+    <th onclick="sortTable(2)">Company</th>
+    <th onclick="sortTable(3)">Role</th>
+    <th>Remote</th>
+    <th>Comp/mo</th>
+    <th>PDF</th>
+    <th>Status</th>
+    <th>Link</th>
+  </tr>
+</thead>
+<tbody>
+  <tr data-status="apply">
+    <td>024</td>
+    <td><span class="score high">4.3</span></td>
+    <td>Tekton Labs</td>
+    <td>Delivery Manager [ALL LATAM]</td>
+    <td><span class="remote-tag">LATAM (Ecuador explicit)</span></td>
+    <td>$3K-5K</td>
+    <td>✅</td>
+    <td><span class="badge apply">Apply</span></td>
+    <td><a href="https://tekton-labs.breezy.hr/p/84eb21d97c3a-delivery-manager-all-latam/apply" target="_blank">Open</a></td>
+  </tr>
+  <tr data-status="monitor">
+    <td>026</td>
+    <td><span class="score high">4.1</span></td>
+    <td>Devsu</td>
+    <td>Technical Project Manager</td>
+    <td><span class="remote-tag">Worldwide (Ecuador company)</span></td>
+    <td>~$3K-5K</td>
+    <td>❌</td>
+    <td><span class="badge closed">Closed</span></td>
+    <td>Contact directly</td>
+  </tr>
+  <tr data-status="apply">
+    <td>021</td>
+    <td><span class="score mid">3.9</span></td>
+    <td>Tether</td>
+    <td>Technical PM (100% Remote)</td>
+    <td><span class="remote-tag">Worldwide</span></td>
+    <td>$4.5K-9.7K</td>
+    <td>✅</td>
+    <td><span class="badge apply">Apply</span></td>
+    <td><a href="https://careers.tether.io/o/technical-project-manager-100-remote-worldwide" target="_blank">Open</a></td>
+  </tr>
+  <tr data-status="verify">
+    <td>030</td>
+    <td><span class="score mid">3.9</span></td>
+    <td>Paymentology</td>
+    <td>Implementation PM</td>
+    <td><span class="remote-tag">Worldwide</span></td>
+    <td>~$3K-5K</td>
+    <td>✅</td>
+    <td><span class="badge verify">Verify</span></td>
+    <td>Check if still active</td>
+  </tr>
+  <tr data-status="verify">
+    <td>041</td>
+    <td><span class="score mid">3.7</span></td>
+    <td>ENS Labs</td>
+    <td>Technical Project Manager</td>
+    <td><span class="remote-tag">Distributed (verify Ecuador)</span></td>
+    <td>$7.3K-7.5K</td>
+    <td>❌</td>
+    <td><span class="badge verify">Verify</span></td>
+    <td>Verify geo eligibility</td>
+  </tr>
+  <tr data-status="verify">
+    <td>025</td>
+    <td><span class="score mid">3.7</span></td>
+    <td>Kraken</td>
+    <td>Technical PM - Growth</td>
+    <td><span class="remote-tag">70+ countries</span></td>
+    <td>$8K-16K</td>
+    <td>❌</td>
+    <td><span class="badge verify">Verify</span></td>
+    <td>Stretch — engineering-heavy</td>
+  </tr>
+  <tr data-status="apply">
+    <td>033</td>
+    <td><span class="score mid">3.5</span></td>
+    <td>TECLA</td>
+    <td>IT Project Manager</td>
+    <td><span class="remote-tag">Worldwide (EST hours)</span></td>
+    <td>~$3K-5K</td>
+    <td>❌</td>
+    <td><span class="badge ready">Ready</span></td>
+    <td>3-month contract</td>
+  </tr>
+</tbody>
+</table>
+
+<div class="section-title">Worth Monitoring (closed/geo-restricted but strong fit)</div>
+<table>
+<thead>
+  <tr><th>Company</th><th>Role</th><th>Why Monitor</th></tr>
+</thead>
+<tbody>
+  <tr><td>Waystone/Altitude</td><td>Technical PM (Remote South America)</td><td>React/TS/PostgreSQL stack, AI-augmented dev valued. Was CLOSED — check for reopening.</td></tr>
+  <tr><td>Datatonic</td><td>Delivery Manager</td><td>AI/data consulting, excellent domain fit. Currently Canada only — may expand.</td></tr>
+  <tr><td>Zapier</td><td>Readiness Program Manager</td><td>Remote-first, 40 countries. Role not currently listed — monitor careers page.</td></tr>
+  <tr><td>Amplemarket</td><td>PM/TPM roles</td><td>LATAM-friendly AI sales platform. No PM roles now — check periodically.</td></tr>
+</tbody>
+</table>
+
+<div class="section-title">Pipeline Summary</div>
+<table>
+<thead><tr><th>Category</th><th>Count</th><th>Detail</th></tr></thead>
+<tbody>
+  <tr><td>Total scanned</td><td>~1,200+</td><td>Across 27 APIs + 30 WebSearch queries</td></tr>
+  <tr><td>Title-filtered</td><td>127</td><td>Matched PM/TPM/Delivery/AI keywords</td></tr>
+  <tr><td>Remote-from-Ecuador</td><td>18</td><td>After geo-restriction filter</td></tr>
+  <tr><td>Fully evaluated</td><td>44</td><td>A-F reports generated</td></tr>
+  <tr><td>Score >= 3.5</td><td>6</td><td>Worth applying</td></tr>
+  <tr><td>PDF ready</td><td>3</td><td>Tekton Labs, Tether, Paymentology</td></tr>
+</tbody>
+</table>
+
+<div class="updated">Last updated: 2026-04-08 | career-ops v1.0 | Data from 2 scans + 44 evaluations</div>
+
+<script>
+function filterTable(status) {
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  event.target.classList.add('active');
+  document.querySelectorAll('#mainTable tbody tr').forEach(row => {
+    if (status === 'all') { row.style.display = ''; return; }
+    row.style.display = row.dataset.status === status ? '' : 'none';
+  });
+}
+function sortTable(col) {
+  const tbody = document.querySelector('#mainTable tbody');
+  const rows = Array.from(tbody.rows);
+  const dir = tbody.dataset.sortDir === 'asc' ? 'desc' : 'asc';
+  tbody.dataset.sortDir = dir;
+  rows.sort((a, b) => {
+    let va = a.cells[col].textContent.trim();
+    let vb = b.cells[col].textContent.trim();
+    if (col === 1) { va = parseFloat(va) || 0; vb = parseFloat(vb) || 0; return dir === 'asc' ? va - vb : vb - va; }
+    return dir === 'asc' ? va.localeCompare(vb) : vb.localeCompare(va);
+  });
+  rows.forEach(r => tbody.appendChild(r));
+}
+</script>
+</body>
+</html>
