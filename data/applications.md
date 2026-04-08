@@ -2,6 +2,13 @@
 
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
+| 38 | 2026-04-08 | Zapier | Readiness Program Manager | 1.0/5 | NO APLICAR | ❌ | [038](reports/038-zapier-2026-04-08.md) | Role not currently listed. Monitor Zapier careers. |
+| 39 | 2026-04-08 | Masabi | Senior Delivery Manager | 1.0/5 | NO APLICAR | ❌ | [039](reports/039-masabi-dm-2026-04-08.md) | Colombia only + CLOSED. Geo-restricted. |
+| 40 | 2026-04-08 | Masabi | Senior Project Manager | 1.0/5 | NO APLICAR | ❌ | [040](reports/040-masabi-pm-2026-04-08.md) | Role no longer listed on Masabi careers. |
+| 41 | 2026-04-08 | ENS Labs | Technical Project Manager (TPM) | 3.7/5 | Evaluada | ❌ | [041](reports/041-ens-labs-2026-04-08.md) | Web3 protocol TPM. $88-90K/yr. Timezone risk (Singapore HQ). Verify geo. |
+| 42 | 2026-04-08 | CI&T | Senior Scrum Master | 1.0/5 | NO APLICAR | ❌ | [042](reports/042-cit-2026-04-08.md) | Colombia only. Pure Scrum Master lacks technical depth. |
+| 43 | 2026-04-08 | Datatonic | Delivery Manager | 1.0/5 | NO APLICAR | ❌ | [043](reports/043-datatonic-2026-04-08.md) | Canada only. AI/data domain excellent fit. Monitor for LATAM-open roles. |
+| 44 | 2026-04-08 | Jobgether/QVAC | Technical Project Manager | 1.0/5 | NO APLICAR | ❌ | [044](reports/044-jobgether-qvac-2026-04-08.md) | UK only. Strong tech depth req. Monitor Jobgether for LATAM-open roles. |
 | 32 | 2026-04-07 | Tether | Technical Project Manager | 3.9/5 | Evaluada | ❌ | [21](reports/021-tether-2026-04-07.md) | Strong TPM fit, 100% remote worldwide, Web3 domain gap, DevOps/CI-CD gap, comp likely $4.5K-$9.75K/mo |
 | 33 | 2026-04-07 | Pareto.AI | Technical Project Manager | 3.6/5 | Evaluada | ❌ | [22](reports/022-pareto-ai-tpm-2026-04-07.md) | Data ops PM mislabeled as TPM; advanced SQL/Python/data engineering gaps; global remote |
 | 34 | 2026-04-07 | Pareto.AI | Project Manager | 3.5/5 | Evaluada | ❌ | [23](reports/023-pareto-ai-pm-2026-04-07.md) | Non-technical PM variant; data ops domain gap; global remote; comp likely at lower end of target |
